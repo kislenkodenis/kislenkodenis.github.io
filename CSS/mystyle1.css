@@ -1,0 +1,13 @@
+body {
+  background-color: #004DFF;
+}
+
+h1 {
+  color: #88ACFF;
+  margin-left: 20px;
+}
+p {
+  color: #00F3FF;
+  margin-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+}

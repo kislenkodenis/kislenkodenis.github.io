@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Моя майбутня професія</title>
+ <link rel="stylesheet" href="./CSS/mystyle.css">
+<style> type="text/css" </style>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-color: #55B9FF;
+}
+th, td {
+  border-color: #55B9FF;
+}
+td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+}
+</style>
+</head>
+<body style="background-color:powderblue;">
+<script>	
+  let result = false;
+
+  while (!result) {
+    const UserName = prompt("Як тебе звуть?");
+   if (!UserName || !UserName.trim() ) {
+     result = false;
+   } else {
+     alert( "Вітаю, " + UserName + ", на моїй сторінці!" );
+     result = true;
+   }
+  }
+</script>
+<marquee behavior="alternate"> 
+  <h1 style="font-family: cursive; text-align:center;">Інженерія програмного забезпечення</h1>
+</marquee>
+<p style="font-family: sans-serif; text-align:center;">Інженерія прогамного забезпечення – це наука про принципи та методи, які застосовуються при розробці та супроводженні програмних систем. Вона вивчає застосування процеси розробки, експлуатації та супроводження програмного забезпечення (<a href="./software.html">ПЗ</a>), застосування принципів інженерії щодо процесу розробки <a href="./software.html">ПЗ</a>.</p>
+<center><img src="1.jpg" style="width:90%; border:2px solid DodgerBlue" usemap="#workmap"> </center>
+<map name="workmap">
+  <area shape="default" href="https://uk.wikipedia.org/wiki/Програмна_інженерія">
+</map>
+<table style="width:100%">
+  <caption style="font-size:200%;">Час, виділений для підготовки для вступу на тиждень</caption>
+  <tr style="font-family: cursive; font-size:130%; text-align:center;">
+    <td >номер</td>
+    <td >назва предмету на НМТ</td>
+    <td >кількість годин</td>
+  </tr>
+  <tr style="font-family: sans-serif; font-size:110%; text-align:center;">
+    <td>1</td>
+    <td>Математика</td>
+    <td>6</td>
+  </tr>
+  <tr style="font-family: sans-serif; font-size:110%; text-align:center;">
+    <td>2</td>
+    <td>Укр. мова</td>
+    <td>2</td>
+  </tr>
+  <tr style="font-family: sans-serif; font-size:110%; text-align:center;">
+    <td>3</td>
+    <td>Історія України</td>
+    <td>1.5</td>
+  </tr>
+  <tr style="font-family: sans-serif; font-size:110%; text-align:center;">
+    <td>4</td>
+    <td>Англійська мова</td>
+    <td>4</td>
+  </tr>
+</table>
+</body>
+</html>
